@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+
+    <item
+        android:drawable="@drawable/sunshine_1"
+        android:duration="4250" />
+
+
+    <item
+        android:drawable="@drawable/sunshine_2"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_1"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_3"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_4"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_5"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_6"
+        android:duration="550" />
+    <item
+        android:drawable="@drawable/sunshine_7"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_6"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_1"
+        android:duration="700" />
+
+
+    <item
+        android:drawable="@drawable/sunshine_2"
+        android:duration="550" />
+
+
+
+    <item
+        android:drawable="@drawable/sunshine_1"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_3"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_4"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_5"
+        android:duration="700" />
+
+    <item
+        android:drawable="@drawable/sunshine_6"
+        android:duration="550" />
+    <item
+        android:drawable="@drawable/sunshine_7"
+        android:duration="550" />
+
+    <item
+        android:drawable="@drawable/sunshine_6"
+        android:duration="700" />
+
+
+</animation-list>

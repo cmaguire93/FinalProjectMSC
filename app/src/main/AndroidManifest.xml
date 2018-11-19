@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.magui.myapplication"
+    android:installLocation="preferExternal"
+    >
+
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        //registering activities
+
+        <activity android:name=".Login_Register.Login"></activity>
+        <activity android:name=".Login_Register.Register"></activity>
+        <activity android:name=".MainActivity_logged_in"></activity>
+        <activity android:name=".Login_Register.User_Activity"></activity>
+        <activity android:name=".Login_Register.Login2"></activity>
+
+        //activities extended from tab 1
+        <activity android:name=".tab1.C_F.chord_C_handler"></activity>
+        <activity android:name=".tab1.C_F.chord_C_Sharp_handler"></activity>
+        <activity android:name=".tab1.C_F.chord_D_handler"></activity>
+        <activity android:name=".tab1.C_F.chord_D_Sharp_handler"></activity>
+        <activity android:name=".tab1.C_F.chord_E_Handler"></activity>
+        <activity android:name=".tab1.C_F.chord_F_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_F_Sharp_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_G_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_G_Sharp_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_A_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_A_Sharp_Handler"></activity>
+        <activity android:name=".tab1.Fsharp_B.chord_B_Handler"></activity>
+
+        //activities extended from tab 2
+        <activity android:name=".tab2.standard_tuning"></activity>
+        <activity android:name=".tab2.d_tuning"></activity>
+        <activity android:name=".tab2.open_g_tuning"></activity>
+        <activity android:name=".tab2.tuner.TunerActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity android:name=".tab2.tuner.SettingsActivity"
+
+            android:label="Settings"
+            android:parentActivityName=".tab2.tuner.TunerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".tab2.tuner.TunerActivity"/>
+
+        </activity>
+
+
+
+
+        //activities extended from tab 3
+        <activity android:name=".tab3.chord_changes_page"></activity>
+        <activity android:name=".tab3.riffs_page"></activity>
+        <activity android:name=".tab3.chord_transitions.e_major_e_minor"></activity>
+        <activity android:name=".tab3.chord_transitions.a_major_d_major"></activity>
+        <activity android:name=".tab3.chord_transitions.e_minor_c_major"></activity>
+        <activity android:name=".tab3.chord_transitions.a_minor_e_minor"></activity>
+        <activity android:name=".tab3.chord_transitions.g_major_e_minor_c_major_g_major"></activity>
+        <activity android:name=".tab3.chord_transitions.bm_d_g_d_g_d_e"></activity>
+        <activity android:name=".tab3.chord_transitions.em_am_g_c_g_b7"></activity>
+        <activity android:name=".tab3.chord_transitions.c_g_am_f_am_f_fm"></activity>
+        <activity android:name=".tab3.guitar_riffs.sotw"></activity>
+        <activity android:name=".tab3.guitar_riffs.satisfaction"></activity>
+        <activity android:name=".tab3.guitar_riffs.come_as_you_are"></activity>
+        <activity android:name=".tab3.guitar_riffs.heartbreaker"></activity>
+        <activity android:name=".tab3.guitar_riffs.soyl"></activity>
+        <activity android:name=".tab3.guitar_riffs.fa"></activity>
+        <activity android:name=".tab3.guitar_riffs.seven_nation_army"></activity>
+        <activity android:name=".tab3.guitar_riffs.iron_man"></activity>
+        <activity android:name=".tab3.finger_placements.finger_placements_handler"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+
+            android:authorities="com.example.magui.myapplication.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:value=".TunerActivity"
+            android:resource="@xml/provider_paths"/>
+
+        </provider>
+    </application>
+
+</manifest>

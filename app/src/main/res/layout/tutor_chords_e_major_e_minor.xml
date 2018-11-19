@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:id="@+id/textView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E Major/ E Minor"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/Chord"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
+
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:layout_above="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="108dp"
+        android:layout_height="89dp"
+        android:src="@drawable/hand"
+        android:layout_gravity="center"
+        android:layout_above="@+id/listen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/listen"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Listen"
+        android:layout_weight="0.09"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBaseline="@+id/play_half_speed"
+        android:layout_alignBottom="@+id/play_half_speed"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/play_half_speed"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Half Speed"
+        android:layout_weight="0.09"
+        android:layout_marginBottom="13dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stop_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Stop"
+        android:layout_marginBottom="12dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/start_recording"
+        android:layout_alignStart="@+id/start_recording" />
+
+    <Button
+        android:id="@+id/compare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compare"
+        android:layout_alignBaseline="@+id/start_recording"
+        android:layout_alignBottom="@+id/start_recording"
+        android:layout_alignLeft="@+id/listen"
+        android:layout_alignStart="@+id/listen"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
+
+    <Button
+        android:id="@+id/start_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:layout_above="@+id/stop_recording"
+        android:layout_alignRight="@+id/play_half_speed"
+        android:layout_alignEnd="@+id/play_half_speed"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/stop_playback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_below="@+id/compare"
+        android:layout_alignRight="@+id/compare"
+        android:layout_alignEnd="@+id/compare" />
+
+    <Button
+        android:id="@+id/Get_Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Help"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

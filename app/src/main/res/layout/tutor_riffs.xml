@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Beginner"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Sotw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Smoke on the Water" />
+
+
+    <Button
+        android:id="@+id/Satisfaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Satisfaction" />
+
+    <Button
+        android:id="@+id/Seven_nation_army"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Seven Nation Army" />
+
+    <Button
+        android:id="@+id/Fluorescent_Adolescent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Fluorescent Adolescent" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Intermediate"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Come_As"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Come as You Are" />
+
+    <Button
+        android:id="@+id/Heartbreker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Heartbreaker" />
+
+    <Button
+        android:id="@+id/Sunshine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Sunshine of Your Love" />
+
+
+    <Button
+        android:id="@+id/Iron_Man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Learn Iron Man" />
+
+
+</LinearLayout>

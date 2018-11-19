@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text=""
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/Register_button"
+        android:layout_alignStart="@+id/Register_button" />
+
+    <Button
+        android:id="@+id/Register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/Reg_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
+    <EditText
+        android:id="@+id/Reg_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorAccent"
+        android:layout_above="@+id/Reg_lastname"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/Reg_lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/Reg_Username"
+        android:layout_alignLeft="@+id/Reg_firstname"
+        android:layout_alignStart="@+id/Reg_firstname" />
+
+    <EditText
+        android:id="@+id/Reg_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/Reg_password"
+        android:layout_alignLeft="@+id/Reg_lastname"
+        android:layout_alignStart="@+id/Reg_lastname" />
+
+
+    <EditText
+        android:id="@+id/Reg_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/Reg_Username"
+        android:layout_alignStart="@+id/Reg_Username" />
+
+</RelativeLayout>

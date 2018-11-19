@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F Minor"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/Chord"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
+        android:src="@drawable/f_minor"
+
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:layout_above="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="108dp"
+        android:layout_height="89dp"
+        android:src="@drawable/hand"
+        android:layout_gravity="center"
+
+        android:layout_above="@+id/play_F_Minor"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/play_F_Minor"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Listen"
+        android:layout_weight="0.09"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        />
+</RelativeLayout>

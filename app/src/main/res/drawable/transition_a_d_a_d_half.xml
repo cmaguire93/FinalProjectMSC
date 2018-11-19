@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/a_major"
+        android:duration="8200" />
+    <item
+        android:drawable="@drawable/d_major"
+        android:duration="3750" />
+    <item
+        android:drawable="@drawable/a_major"
+        android:duration="3750" />
+    <item
+        android:drawable="@drawable/d_major"
+        android:duration="4166" />
+</animation-list>

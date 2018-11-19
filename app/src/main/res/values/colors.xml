@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //app theme colours
+    <color name="colorPrimary">#424243</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff1407</color>
+    <color name="blue">#00a6fa</color>
+    <color name="purple">#d211f4</color>
+    <color name="orange">#fa8d00</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#FF4081</color>
+
+// tuner colours
+    <color name="colorPrimary2">#009688</color>
+    <color name="colorPrimaryDark2">#00796B</color>
+    <color name="colorAccent2">#607D8B</color>
+    <color name="needleViewSmallTicksColorDark">#ffffff</color>
+    <color name="needleViewBigTicksColorDark">#ffffff</color>
+    <color name="needleViewSmallTicksColorLight">#757575</color>
+    <color name="needleViewBigTicksColorLight">#212121</color>
+    <color name="tuningItemNormalColor">#CCCCCC</color>
+    <color name="tuningItemSelectedColor">#FFFFFF</color>
+
+
+
+</resources>

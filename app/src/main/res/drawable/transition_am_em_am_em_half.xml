@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+
+    <item
+        android:drawable="@drawable/a_minor"
+        android:duration="8200" />
+    <item
+        android:drawable="@drawable/e_minor"
+        android:duration="3750" />
+    <item
+        android:drawable="@drawable/a_minor"
+        android:duration="3750" />
+    <item
+        android:drawable="@drawable/e_minor"
+        android:duration="4166" />
+
+</animation-list>

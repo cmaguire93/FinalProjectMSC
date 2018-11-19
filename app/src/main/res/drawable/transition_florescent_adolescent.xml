@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+
+    <item
+        android:drawable="@drawable/fa_1"
+        android:duration="2000" />
+
+    <item
+        android:drawable="@drawable/fa_1"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_1"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_1"
+        android:duration="300" />
+
+
+    <item
+        android:drawable="@drawable/fa_2"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_3"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_5"
+        android:duration="500" />
+
+    <item
+        android:drawable="@drawable/fa_5"
+        android:duration="1000" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_2"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_2"
+        android:duration="1000" />
+
+    <item
+        android:drawable="@drawable/fa_2"
+        android:duration="500" />
+
+    <item
+        android:drawable="@drawable/fa_5"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="300" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="500" />
+
+    <item
+        android:drawable="@drawable/fa_4"
+        android:duration="200" />
+
+
+</animation-list>

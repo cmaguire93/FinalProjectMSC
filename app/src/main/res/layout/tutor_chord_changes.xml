@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Beginner"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/E_Minor_C_Major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="E Minor C Major Chord Change" />
+
+
+    <Button
+        android:id="@+id/A_Minor_E_Minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="A Minor E Minor Chord Change" />
+
+    <Button
+        android:id="@+id/A_Major_D_Major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tutor_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="A Major D Major chord change" />
+
+    <Button
+        android:id="@+id/E_Major_E_Minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="E Major E Minor chord change" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Intermediate"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/G_Major_E_Minor_D_Major_G_Major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="G Em C G Chord Change" />
+
+    <Button
+        android:id="@+id/C_Major_G_Major_F_Major_A_Minor_F_Major_F_Minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="C G F Am F Fm Chord Change" />
+
+    <Button
+        android:id="@+id/B_Minor_D_Major_G_Major_D_Major_G_Major_D_Major_E_Major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Bm D G D G D E Chord Change" />
+
+    <Button
+        android:id="@+id/E_Minor_A_Minor_G_Major_C_Major_G_Major_B_Seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Em Am G C G B7 Chord Change" />
+
+
+
+</LinearLayout>

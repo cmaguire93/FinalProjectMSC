@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Login_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/Login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/Login_username"
+        android:layout_alignLeft="@+id/Login_username"
+        android:layout_alignStart="@+id/Login_username" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Login"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/Login_register"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Register"
+        android:layout_below="@+id/Login_password"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

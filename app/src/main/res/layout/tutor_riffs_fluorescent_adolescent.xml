@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:id="@+id/tab"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/fa_1"
+        android:layout_alignBottom="@+id/play_half_speed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/play_flourescent_adolescent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/play_half_speed"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/play_half_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Half Speed"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Fluorescent Adolescent \nDifficulty: Beginner"
+        android:textSize="25dp"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/start_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:layout_alignBaseline="@+id/play_flourescent_adolescent"
+        android:layout_alignBottom="@+id/play_flourescent_adolescent"
+        android:layout_alignLeft="@+id/stop_recording"
+        android:layout_alignStart="@+id/stop_recording" />
+
+    <Button
+        android:id="@+id/stop_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/play_half_speed"
+        android:layout_toLeftOf="@+id/play_half_speed"
+        android:layout_toStartOf="@+id/play_half_speed"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/compare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compare"
+        android:layout_alignBaseline="@+id/play_half_speed"
+        android:layout_alignBottom="@+id/play_half_speed"
+        android:layout_toRightOf="@+id/play_half_speed"
+        android:layout_toEndOf="@+id/play_half_speed" />
+
+    <Button
+        android:id="@+id/stop_playback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_alignBaseline="@+id/play_flourescent_adolescent"
+        android:layout_alignBottom="@+id/play_half_speed"
+        android:layout_toRightOf="@+id/play_half_speed"
+        android:layout_toEndOf="@+id/play_half_speed" />
+    <Button
+        android:id="@+id/Get_Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Help"
+        android:layout_above="@+id/start_recording"
+        android:layout_alignLeft="@+id/start_recording"
+        android:layout_alignStart="@+id/start_recording" />
+</RelativeLayout>
